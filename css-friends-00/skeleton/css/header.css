@@ -1,0 +1,51 @@
+body {
+    font-weight: 400; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14; 
+    background-color: rgb(233, 235, 238);
+}
+
+.header {
+    background-color: red; 
+    color: white; 
+    position: relative;
+    z-index: 1;
+}
+
+.header a {
+    display: block;
+    padding: 10px 20px; 
+}
+
+.header-nav {
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc; 
+}
+
+.header-logo {
+    border-right: 1px solid #ccc;
+}
+
+.header-logo a:hover {
+    background-color:black; 
+}
+.header-list {
+    display: flex; 
+}
+
+
+.header-list a {
+    border-left: 1px solid #ccc;
+}
+
+.header-list a:hover {
+    background-color:black;
+}
+.header-logo {
+    font-weight: 700;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.header-dropdown {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    width: 400px;
+    right: 119px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    box-shadow: 1px 5px 10px 1px rgb(139, 132, 132);
+}
+
+.header-dropdown > li {
+ background-color: white;
+ border-bottom: 1px solid #ccc;
+}
+
+.header-dropdown a:hover {
+ background-color: rgb(248, 248, 248);
+}
+
+li:hover .header-dropdown{
+    display: block;
+}
+
+
+
+/* .beeper-nub {
+    background-image: url(/rsrc.php/v3/yx/r/Q9vWAKGBH1Y.png);
+} */
